@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1:hover {
+        color: blueviolet;
+        background-color: cadetblue;
+        padding: 30px;
+      }
+      .middle-persion:focus {
+        color: tomato;
+        font-weight: 700;
+      }
+      .third-p:focus {
+        color: violet;
+        background-color: sienna;
+      }
+      a:visited{
+          color: red;
+      }
+      li:first-child{
+          color: tomato;
+      }
+      li:last-child{
+          background-color: teal;
+          width: 50px;
+      }
+      li:nth-child(2n){
+          color: turquoise;
+      }
+      li:nth-child(2n+1){
+          color:tomato;
+      }
+      h3::before{
+          content:'Tag ' ;
+      }
+      h3::after{
+          content: ' Hello';
+          color: turquoise;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is Normal</h1>
+    <input class="middle-persion" type="text" />
+    <input type="text" />
+    <input class="third-p" type="text" />
+    <br />
+    <a href="https://www.google.com/">Go To Google</a>
+    <a href="https://www.ridenow.com/side-x-sides-4-passengers/"
+      >Not visited website</a
+    >
+    <a
+      href="https://web.programming-hero.com/web-5/video/web-5-5_5-3-pseudo-class-hover-class-hover-visited-focus"
+    >
+      Go To Programming Hero</a
+    >
+    <h3>The Header number-1</h3>
+    <h3>The Header number-2</h3>
+    <h3>The Header number-3</h3>
+    <h3>The Header number-4</h3>
+    <h3>The Header number-5</h3>
+    <h3>The Header number-6</h3>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Kalia</li>
+        <li>Jalaia</li>
+        <li>Calia</li>
+        <li>Charia</li>
+        <li>Maria</li>
+        <li>Faria</li>
+        <li>Jaria</li>
+    </ul>
+  </body>
+</html>
